@@ -222,13 +222,13 @@ public class InterligacaoClasses {
                 "vários personagens famosos dos contos de fadas", 2014);
 
 
-        Ator ator = new Ator("Johnny Depp", LocalDate.of(1963, 6,9), "Americano");
+        Ator ator = new Ator("Johnny Depp", LocalDate.of(1963, 6, 9), "Americano");
         atores.add(ator);
         filme.adicionarAtor(ator);
-        Ator ator1 = new Ator("Meryl Streep", LocalDate.of(1949,6,22), "Americana");
+        Ator ator1 = new Ator("Meryl Streep", LocalDate.of(1949, 6, 22), "Americana");
         atores.add(ator1);
         filme.adicionarAtor(ator1);
-        Diretor diretor = new Diretor("Rob Marshall", LocalDate.of(1960,10,17), "Americano");
+        Diretor diretor = new Diretor("Rob Marshall", LocalDate.of(1960, 10, 17), "Americano");
         diretores.add(diretor);
         filme.adicionarDiretor(diretor);
         filmes.add(filme);
@@ -237,16 +237,134 @@ public class InterligacaoClasses {
         Filme filme1 = new Filme("Náufrago", "Aventura", "Chuck Noland viaja a trabalho para a Malásia quando " +
                 "o avião da empresa cai no oceano " +
                 "Pacífico durante uma tempestade", 2000);
-        Ator ator2 = new Ator("Tom Hanks", LocalDate.of(1956,7,9), "Americano");
+        Ator ator2 = new Ator("Tom Hanks", LocalDate.of(1956, 7, 9), "Americano");
         atores.add(ator2);
         filme1.adicionarAtor(ator2);
-        Ator ator3 = new Ator("Helen Hunt", LocalDate.of(1963,6,15), "Americana");
+        Ator ator3 = new Ator("Helen Hunt", LocalDate.of(1963, 6, 15), "Americana");
         atores.add(ator3);
         filme1.adicionarAtor(ator3);
-        Diretor diretor1 = new Diretor("Robert Zemeckis", LocalDate.of(1952,5,14), "Americano");
+        Diretor diretor1 = new Diretor("Robert Zemeckis", LocalDate.of(1952, 5, 14), "Americano");
         diretores.add(diretor1);
         filme1.adicionarDiretor(diretor1);
         filmes.add(filme1);
+
+        Filme filme2 = new Filme("Titanic", "Romance", "Um artista pobre e uma jovem rica se conhecem e " +
+                "se apaixonam na fatídica viagem inaugural do Titanic em 1912.", 1998);
+
+        Ator ator4 = new Ator("Kate Winslet", LocalDate.of(1975, 10, 5), "Britanica");
+        atores.add(ator4);
+        filme2.adicionarAtor(ator4);
+
+        Ator ator5 = new Ator("Leonardo DiCaprio", LocalDate.of(1974, 11, 11), "Americana");
+        atores.add(ator5);
+        filme2.adicionarAtor(ator5);
+
+        Ator ator6 = new Ator("Kathy Bates",LocalDate.of(1948,6,28),"Americana");
+        atores.add(ator6);
+        filme2.adicionarAtor(ator6);
+
+        Ator ator12 = new Ator("Bill Paxton",LocalDate.of(1955,05,17),"Americana");
+        atores.add(ator12);
+        filme2.adicionarAtor(ator12);
+
+        Diretor diretor2 = new Diretor("James Camaron",LocalDate.of(1954,8,16),"Canadense");
+        diretores.add(diretor2);
+        filme2.adicionarDiretor(diretor2);
+        filmes.add(filme2);
+
+        Filme filme3 = new Filme("Oppenheimer","Suspense","O físico J. Robert Oppenheimer trabalha com uma " +
+                "equipe de cientistas durante o Projeto Manhattan, " +
+                "levando ao desenvolvimento da bomba atômica.",2023);
+
+        Ator ator7 = new Ator("Cillian Murphy",LocalDate.of(1976,5,25),"Irlandesa");
+        atores.add(ator7);
+        filme3.adicionarAtor(ator7);
+
+        Ator ator8 = new Ator("Robert Downey Jr.", LocalDate.of(1965,4,4), "Americana");
+        atores.add(ator8);
+        filme3.adicionarAtor(ator8);
+
+        Ator ator9 = new Ator("Florence Pugh", LocalDate.of(1996,1,3),"Britânica");
+        atores.add(ator9);
+        filme3.adicionarAtor(ator9);
+
+        Diretor diretor3 = new Diretor("Christopher Nolan",LocalDate.of(1970,7,30),"Britânica");
+        diretores.add(diretor3);
+        filme3.adicionarDiretor(diretor3);
+
+        filmes.add(filme3);
+
+        Filme filme4 = new Filme("Twister","Ação", "Enquanto a tempestade mais devastadora das " +
+                "últimas décadas se aproxima, a professora universitária Jo Harding e uma " +
+                "equipe de alunos com poucos recursos preparam o protótipo de Dorothy.",1996);
+
+        Ator ator10 = new Ator("Helen Hunt",LocalDate.of(1963,6,15),"America");
+        atores.add(ator10);
+        filme4.adicionarAtor(ator10);
+
+        Ator ator11 = new Ator("Bill Paxton",LocalDate.of(1955,05,17),"Americana");
+        atores.add(ator11);
+        filme4.adicionarAtor(ator11);
+
+        Diretor diretor4 = new Diretor("Jan de Bont",LocalDate.of(1943,10,22),"Holandesa");
+        diretores.add(diretor4);
+        filme4.adicionarDiretor(diretor4);
+
+        filmes.add(filme4);
+
+        Filme filme5 = new Filme("Aquaman","Fantasia","A cidade de Atlantis, " +
+                "que já foi lar de uma das mais avançadas civilizações do mundo," +
+                " agora é um reino submerso dominado pelo ganancioso Rei Orm.",2018);
+
+        Ator ator13 = new Ator("Jason Momoa",LocalDate.of(1979,8,1),"Americana");
+        atores.add(ator13);
+        filme5.adicionarAtor(ator13);
+
+        Ator ator14 = new Ator("Patrick Wilson",LocalDate.of(1973,6,3),"Americana");
+        atores.add(ator14);
+        filme5.adicionarAtor(ator14);
+
+        Ator ator15 = new Ator("Amber Heard",LocalDate.of(1986,4,22),"Americana");
+        atores.add(ator15);
+        filme5.adicionarAtor(ator15);
+
+        Diretor diretor5 = new Diretor("James Wan", LocalDate.of(1977,2,26),"Malasiano");
+        diretores.add(diretor5);
+        filme5.adicionarDiretor(diretor5);
+
+        filmes.add(filme5);
+
+        Filme filme6 = new Filme("Sobrenatural","Terror","Josh e Renai se mudam com a família para uma casa maior. " +
+                "Lá, o filho Dalton sofre um estranho acidente e entra em coma. " +
+                "Enquanto eles tentam salvar o menino, entidades malignas atormentam a família.",2011);
+
+        Ator ator16 = new Ator("Rose Byrne",LocalDate.of(1979,7,24),"Autralianq");
+        atores.add(ator16);
+        filme6.adicionarAtor(ator16);
+
+        Ator ator17 = new Ator("Patrick Wilson",LocalDate.of(1973,6,3),"Americana");
+        atores.add(ator17);
+        filme6.adicionarAtor(ator17);
+
+        Ator ator18 = new Ator("Leigh Whannell",LocalDate.of(1977,1,17),"Australiana");
+        atores.add(ator18);
+        filme6.adicionarAtor(ator18);
+
+        Diretor diretor6 = new Diretor("James Wan", LocalDate.of(1977,2,26),"Malasiano");
+        diretores.add(diretor6);
+        filme6.adicionarDiretor(diretor6);
+
+        filmes.add(filme6);
+
+
+
+
+
+
+
+
+
+
 
 
 
